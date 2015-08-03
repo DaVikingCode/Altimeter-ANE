@@ -1,0 +1,16 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.davikingcode.nativeExtensions.Altimeter</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libAltimeterIosExtension.a</nativeLibrary>
+				<initializer>AltimeterExtensionInitializer</initializer>
+				<finalizer>AltimeterExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+	</platforms>
+</extension>

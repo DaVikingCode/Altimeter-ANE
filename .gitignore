@@ -1,0 +1,9 @@
+.project
+.settings
+*.ipa
+*.stamp
+*.swf
+*.tmp
+*.xcuserstate
+tmp
+bin/*.dSYM/Contents/Info.plist

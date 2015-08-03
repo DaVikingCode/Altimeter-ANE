@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0DAC6C11B6BC36B00C8B468 /* AltimeterIosExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC6C01B6BC36B00C8B468 /* AltimeterIosExtension.m */; };
+		B0DAC6D71B6BC44300C8B468 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DAC6D61B6BC44300C8B468 /* CoreMotion.framework */; };
+		B0DAC6DC1B6BC85800C8B468 /* AltimeterHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC6DB1B6BC85800C8B468 /* AltimeterHelpers.m */; };
+		B0DAC6DF1B6BD17D00C8B468 /* TypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DAC6DE1B6BD17D00C8B468 /* TypeConversion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0DAC6B91B6BC36B00C8B468 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0DAC6BB1B6BC36B00C8B468 /* libAltimeterIosExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAltimeterIosExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DAC6C01B6BC36B00C8B468 /* AltimeterIosExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AltimeterIosExtension.m; sourceTree = "<group>"; };
+		B0DAC6D51B6BC39E00C8B468 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		B0DAC6D61B6BC44300C8B468 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B0DAC6DA1B6BC85800C8B468 /* AltimeterHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltimeterHelpers.h; sourceTree = "<group>"; };
+		B0DAC6DB1B6BC85800C8B468 /* AltimeterHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AltimeterHelpers.m; sourceTree = "<group>"; };
+		B0DAC6DD1B6BD17C00C8B468 /* TypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeConversion.h; sourceTree = "<group>"; };
+		B0DAC6DE1B6BD17D00C8B468 /* TypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeConversion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0DAC6B81B6BC36B00C8B468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DAC6D71B6BC44300C8B468 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0DAC6B21B6BC36B00C8B468 = {
+			isa = PBXGroup;
+			children = (
+				B0DAC6D61B6BC44300C8B468 /* CoreMotion.framework */,
+				B0DAC6BD1B6BC36B00C8B468 /* AltimeterIosExtension */,
+				B0DAC6BC1B6BC36B00C8B468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0DAC6BC1B6BC36B00C8B468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0DAC6BB1B6BC36B00C8B468 /* libAltimeterIosExtension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DAC6BD1B6BC36B00C8B468 /* AltimeterIosExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B0DAC6DD1B6BD17C00C8B468 /* TypeConversion.h */,
+				B0DAC6DE1B6BD17D00C8B468 /* TypeConversion.m */,
+				B0DAC6D51B6BC39E00C8B468 /* FlashRuntimeExtensions.h */,
+				B0DAC6C01B6BC36B00C8B468 /* AltimeterIosExtension.m */,
+				B0DAC6DA1B6BC85800C8B468 /* AltimeterHelpers.h */,
+				B0DAC6DB1B6BC85800C8B468 /* AltimeterHelpers.m */,
+			);
+			path = AltimeterIosExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0DAC6BA1B6BC36B00C8B468 /* AltimeterIosExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0DAC6CF1B6BC36B00C8B468 /* Build configuration list for PBXNativeTarget "AltimeterIosExtension" */;
+			buildPhases = (
+				B0DAC6B71B6BC36B00C8B468 /* Sources */,
+				B0DAC6B81B6BC36B00C8B468 /* Frameworks */,
+				B0DAC6B91B6BC36B00C8B468 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltimeterIosExtension;
+			productName = AltimeterIosExtension;
+			productReference = B0DAC6BB1B6BC36B00C8B468 /* libAltimeterIosExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0DAC6B31B6BC36B00C8B468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Da Viking Code";
+				TargetAttributes = {
+					B0DAC6BA1B6BC36B00C8B468 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = B0DAC6B61B6BC36B00C8B468 /* Build configuration list for PBXProject "AltimeterIosExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0DAC6B21B6BC36B00C8B468;
+			productRefGroup = B0DAC6BC1B6BC36B00C8B468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0DAC6BA1B6BC36B00C8B468 /* AltimeterIosExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0DAC6B71B6BC36B00C8B468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DAC6DF1B6BD17D00C8B468 /* TypeConversion.m in Sources */,
+				B0DAC6C11B6BC36B00C8B468 /* AltimeterIosExtension.m in Sources */,
+				B0DAC6DC1B6BC85800C8B468 /* AltimeterHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0DAC6CD1B6BC36B00C8B468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0DAC6CE1B6BC36B00C8B468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0DAC6D01B6BC36B00C8B468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B0DAC6D11B6BC36B00C8B468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0DAC6B61B6BC36B00C8B468 /* Build configuration list for PBXProject "AltimeterIosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DAC6CD1B6BC36B00C8B468 /* Debug */,
+				B0DAC6CE1B6BC36B00C8B468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0DAC6CF1B6BC36B00C8B468 /* Build configuration list for PBXNativeTarget "AltimeterIosExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DAC6D01B6BC36B00C8B468 /* Debug */,
+				B0DAC6D11B6BC36B00C8B468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0DAC6B31B6BC36B00C8B468 /* Project object */;
+}
