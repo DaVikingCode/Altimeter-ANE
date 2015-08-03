@@ -1,7 +1,15 @@
 # Altimeter-ANE
 iOS ANE for the [CMAltimeter](https://developer.apple.com/library/prerelease/ios/documentation/CoreMotion/Reference/CMAltimeter_class/index.html#//apple_ref/occ/cl/CMAltimeter) class.
 
-Usage:
+### Instructions
+Add those lines to your **-app.xml* file:
+```xml
+<extensions>
+	<extensionID>com.davikingcode.nativeExtensions.Altimeter</extensionID>
+</extensions>
+```
+
+### Usage:
 ```as3
 import com.davikingcode.nativeExtensions.altimeter.Altimeter;
 import com.davikingcode.nativeExtensions.altimeter.AltimeterEvent;
